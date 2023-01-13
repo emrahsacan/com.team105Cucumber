@@ -1,8 +1,7 @@
-Feature: US1001 Kullanici amazonda test yapar
+Feature: US1002 Kulllanici amazon anasayfada birden fazla urun aratir
 
-  Scenario: TC01 Kullanici amazonda Nutella aratir
+  Scenario: TC02 Kullanici urunleri aratip test edebilmeli
 
     Given kullanici amazon anasayfaya gider
     Then amazon arama kutusuna Nutella yazip aratir
     And arama sonuclarinin Nutella icerdigini test eder
-    Then sayfayi kapatir
