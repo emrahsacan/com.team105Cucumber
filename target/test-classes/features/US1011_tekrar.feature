@@ -1,5 +1,5 @@
 Feature: US1011 Kulanici herokuapp sayfasinda butonlarin gorunur olduğunu test eder
-@wip
+
   Scenario: TC16 Kullanici bekleyerek butonlarin gorunur olmasini saglamali
 
     Given kullanici "herokuappUrl" anasayfaya gider

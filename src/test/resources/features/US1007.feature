@@ -1,11 +1,11 @@
 
 Feature: US1007 Kullanici yanlis bilgilerle giris yapamaz
-
+@wip
   Scenario: TC10 Gecerli kullanici adi ve gecersiz sifre ile negatif Login Testi
 
     Given kullanici "qdUrl" anasayfaya gider
     Then ilk sayfa login linkine click yapar
-    And kullanici kutusuna "qdGecerliUserame" yazar
+    And kullanici kutusuna "qdGecerliUsername" yazar
     And kullanici kutusuna "qdGecersizPassword" yazar
     Then login butonuna basar
     And giris yapilamadigini test eder

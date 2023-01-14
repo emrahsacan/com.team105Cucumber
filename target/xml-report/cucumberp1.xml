@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="154.946">
-    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratir" name="TC03 Kullanici Parametreli method ile Nutella aratir" time="31.388">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="130.618">
+    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratir" name="TC03 Kullanici Parametreli method ile Nutella aratir" time="30.208">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
 Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
@@ -9,7 +9,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratir" name="TC05 Kullanici Parametreli method ile Samsung aratir" time="27.591">
+    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratir" name="TC05 Kullanici Parametreli method ile Samsung aratir" time="27.956">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
 Then amazon arama kutusuna "Hiyar" yazip aratir.............................passed
@@ -18,7 +18,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC06 Kullanici amazon sitesine gidisi test eder" time="38.532">
+    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC06 Kullanici amazon sitesine gidisi test eder" time="21.006">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
 Then url de "amazon" oldugunu test eder.....................................passed
@@ -26,7 +26,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC07 Kullanici wisequarter sitesine gidisi test eder" time="33.571">
+    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC07 Kullanici wisequarter sitesine gidisi test eder" time="25.849">
         <system-out>
             <![CDATA[Given kullanici "wqUrl" anasayfaya gider....................................passed
 Then url de "wisequarter" oldugunu test eder................................passed
@@ -34,7 +34,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC08 Kullanici walmart sitesine gidisi test eder" time="23.445">
+    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC08 Kullanici walmart sitesine gidisi test eder" time="25.212">
         <system-out>
             <![CDATA[Given kullanici "walmartUrl" anasayfaya gider...............................passed
 Then url de "walmart" oldugunu test eder....................................passed
