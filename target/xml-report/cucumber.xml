@@ -1,38 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="85.872">
-    <testcase classname="US1008 TEKRAR" name="_2" time="27.514">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.982">
+    <testcase classname="US1011 Kulanici herokuapp sayfasinda butonlarin gorunur olduğunu test eder" name="TC16 Kullanici bekleyerek butonlarin gorunur olmasini saglamali" time="21.805">
         <system-out>
-            <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
-Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
-And arama sonuclarinin "Nutella" icerdigini test eder.......................passed
-Then sayfayi kapatir........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US1008 TEKRAR" name="_3" time="9.33">
-        <system-out>
-            <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
-Then amazon arama kutusuna "Java" yazip aratir..............................passed
-And arama sonuclarinin "Java" icerdigini test eder..........................passed
-Then sayfayi kapatir........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US1008 TEKRAR" name="_4" time="25.274">
-        <system-out>
-            <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
-Then amazon arama kutusuna "Samsung" yazip aratir...........................passed
-And arama sonuclarinin "Samsung" icerdigini test eder.......................passed
-Then sayfayi kapatir........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US1008 TEKRAR" name="_5" time="23.526">
-        <system-out>
-            <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
-Then amazon arama kutusuna "Apple" yazip aratir.............................passed
-And arama sonuclarinin "Apple" icerdigini test eder.........................passed
-Then sayfayi kapatir........................................................passed
+            <![CDATA[Given kullanici "herokuappUrl" anasayfaya gider.............................passed
+Then Add Element butonuna basar.............................................passed
+And Delete butonu gorunur oluncaya kadar bekler.............................passed
+And Delete butonunun gorunur oldugunu test eder.............................passed
+Then Delete butonuna basarak butonu siler...................................passed
+And Delete butonunun gorunmedigini test eder................................passed
 ]]>
         </system-out>
     </testcase>

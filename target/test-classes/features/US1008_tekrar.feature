@@ -1,6 +1,6 @@
 Feature: US1008 TEKRAR
-@wip
-  Scenario Outline:
+
+  Scenario Outline: TC13
 
     # Amazon anasayfaya gidelim. Nutella, Java, Samsung ve Apple icin arama yapip
     # arama sonuclarinin aradigimiz kelimeyi icerdigini test edelim

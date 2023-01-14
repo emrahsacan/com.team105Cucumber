@@ -36,7 +36,7 @@ public class HerokuappStepdefinitions {
             // exception olusmazsa bekledigimiz durum gerceklesmedi demektir
             // bu durumda test failed olmali
             // bunun icin 36.satirda failed olacak bir assertion yazdim
-        } catch (NoSuchElementException e) {
+        } catch (NoSuchElementException e) { // NoSuchElementException'i Seleniumdan almalıyız
             Assert.assertTrue(flag==3);
             // 35.satirda delete butonu gorunmuyorsa exception olusur
             // bu bizim bekledigimiz durum oldugundan testin passed olmasi gerekir
